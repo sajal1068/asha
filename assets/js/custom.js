@@ -129,7 +129,7 @@
 
   var myElement = document.getElementById('sideMenu');
   //var myElement =document.getElementsByClassName("left_col");
-new SimpleBar(myElement, { autoHide: true });
+  new SimpleBar(myElement, { autoHide: true });
 
 
    
