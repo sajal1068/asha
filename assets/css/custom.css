@@ -777,6 +777,7 @@ ul.rupeeBox li:nth-child(2){
 .count-01{
     font-size: 0.99rem;    
     font-weight: 600;
+    color:var(--green);
 }
 
 ul.userinformation{
@@ -1013,4 +1014,9 @@ ul.userinformation li span{
         background-color: var(--blue);
         top: calc(100% + 2px);        
       }
-      
+      .rupeeFonts{
+        font-size: 1.1rem;
+        color: var(--blueDark);
+        font-weight: 600;
+        line-height: 0;
+      }
