@@ -18,7 +18,7 @@
       <section class="left_col">
         <div class="side-header">
             <a href="" class="header-brand1">
-              Logo Name
+              <img src="assets/images/admin-logo.png" class="img-fluid">
             </a>
         </div>
         <ul class="sideMenu" id="sideMenu">
@@ -73,10 +73,10 @@
 
               <ul class="topnavigation">
                 <li>
-                    <svg fill="none" id="menu_toggle"  viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="m4 5c-.55228 0-1 .44772-1 1s.44772 1 1 1h16c.5523 0 1-.44772 1-1s-.4477-1-1-1zm5 7c0-.5523.44772-1 1-1h10c.5523 0 1 .4477 1 1s-.4477 1-1 1h-10c-.55228 0-1-.4477-1-1zm-6 6c0-.5523.44772-1 1-1h16c.5523 0 1 .4477 1 1s-.4477 1-1 1h-16c-.55228 0-1-.4477-1-1z" fill="rgb(0,0,0)" fill-rule="evenodd"/></svg>
+                    <svg fill="none" id="menu_toggle"  viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg"><path clip-rule="evenodd" d="m4 5c-.55228 0-1 .44772-1 1s.44772 1 1 1h16c.5523 0 1-.44772 1-1s-.4477-1-1-1zm5 7c0-.5523.44772-1 1-1h10c.5523 0 1 .4477 1 1s-.4477 1-1 1h-10c-.55228 0-1-.4477-1-1zm-6 6c0-.5523.44772-1 1-1h16c.5523 0 1 .4477 1 1s-.4477 1-1 1h-16c-.55228 0-1-.4477-1-1z" fill="rgb(0,0,0)" fill-rule="evenodd"/></svg> <span class="font-600 text-green"> ASHA Dashboard</span> 
                 </li>
                 <li>
-                  ASHA Dashboard
+                  
                 </li>
 
                 <li>
@@ -141,72 +141,137 @@
           <div class="row">
 
             <div class="col-12">
+              <div class="filterSearch">
+                <span class="formTitle">Filter Search </span> 
+                <span> 
+                  <select class="form-select form-select-sm" aria-label="Default select example">
+                    <option selected>-- Select State --</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </span> 
+                <span>
+                  <select class="form-select form-select-sm" aria-label="Default select example">
+                    <option selected>-- Select District --</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select> </span> 
+                <span> 
+                  <select class="form-select form-select-sm" aria-label="Default select example">
+                    <option selected>-- Select Block --</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                  </select>
+                </span> 
+                <span>
+                  <button class="btn btn-search">Serach</button>
+                </span> 
+              </div>
+            </div>
+
+
+            <div class="col-12">
+              <div class="mainHeading-02">State Specific Insentives</div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="admin-count-box">
+                  <div class="title headingUnderline">Total Ashas</div>
+                  <ul >
+                    <li></li>
+                  </ul>
+                  <strong>10,70,00,000</strong>
+              </div>
+            </div>
+
+            <div class="col-lg-2">
+              <div class="admin-count-box">
+                  <div class="title headingUnderline">Total Incentive Pay</div> 
+                  <strong>10,70,00,000</strong>
+              </div>
+            </div>
+<!-- 
+            <div class="col-12">
               <div class="card">
                 <div class="card-header">
                  <h3 class="card-title mainHeading"> Yojana 02</h3> 
                 </div>
                 <div class="card-body">
-
+                    <div class="row">
+                      <div class="col-md-4 col-lg-2">
+                        <div class="counter-box">
+                          <span class="counter">3275</span>
+                          <p>Total Ashas</p>
+                        </div>
+                      </div>
+                    </div>
                  
                  
                 </div>
-              </div>
+              </div> -->
 
             </div>
-            <div class="col-12">
-              <div class="mainHeading">State Specific Insentives</div>
-            </div>
+            
 
-            <div class="col-lg-2">
-              <div class="admin-count-box">
-                  <div class="title">Total Ashas</div> 
-                  <strong>10,70,00,000</strong>
-              </div>
-            </div>
-
-            <div class="col-lg-2">
-              <div class="admin-count-box">
-                  <div class="title">Total Incentive Pay</div> 
-                  <strong>10,70,00,000</strong>
-              </div>
-            </div>
-
-          </div>
+         
 
           <div class="clearfix"></div>
 
           <div class="row ">
 
             <div class="col-12">
-              <div class="mainHeading mt-4">Program wise incentive amount</div>
+              <div class="mainHeading-02 mt-4">Program wise incentive amount</div>
             </div>
 
             <div class="col-lg-2">
               <div class="admin-count-box">
-                  <div class="title">Total Ashas</div> 
-                  <strong>10,70,00,000</strong>
+                <img src="assets/images/pm-yojana.svg" class="img-fluid">
+                <div class="title">PM Yojana 01</div>
+                <ul class="rupeeBox">
+                  <li><i class="bi bi-currency-rupee"></i></li>
+                  <li>10,70,00,000</li>
+                </ul> 
+                  
               </div>
             </div>
 
             <div class="col-lg-2">
               <div class="admin-count-box">
-                  <div class="title">Total Incentive Pay</div> 
-                  <strong>10,70,00,000</strong>
+                <img src="assets/images/pm-yojana.svg" class="img-fluid">
+                <div class="title">PM Yojana 02</div>
+                <ul class="rupeeBox">
+                  <li><i class="bi bi-currency-rupee"></i></li>
+                  <li>10,70,00,000</li>
+                </ul> 
+                  
               </div>
             </div>
 
-            <div class="col-md-3">
+            <div class="col-lg-2">
+              <div class="admin-count-box">
+                <img src="assets/images/pm-yojana.svg" class="img-fluid">
+                <div class="title">PM Yojana 02</div>
+                <ul class="rupeeBox">
+                  <li><i class="bi bi-currency-rupee"></i></li>
+                  <li>10,70,00,000</li>
+                </ul> 
+                  
+              </div>
+            </div>
+
+            <!-- <div class="col-md-3">
               <div class="card">
                 <div class="card-header">
                  <h3 class="card-title">PM Yojana 01</h3> 
                 </div>
-                <div class="card-body">
-
-                 
+                <div class="card-body">                
                  
                 </div>
               </div>
-            </div>
+            </div> -->
 
             <div class="col-md-3">
               
@@ -221,7 +286,7 @@
           <div class="row">
 
             <div class="col-12">
-              <div class="mainHeading">State Specific Insentives</div>
+              <div class="mainHeading-02">State Specific Insentives</div>
             </div>  
          
 
@@ -523,7 +588,7 @@
             </div>
 
             <div class="col-12">
-              <div class="mainHeading">Union Territories</div>
+              <div class="mainHeading-02">Union Territories</div>
             </div> 
 
             <div class="col-lg-2 col-md-3 col-sm-6 col-6">
